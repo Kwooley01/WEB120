@@ -1,0 +1,70 @@
+/*This is the CSS for my AIA assignment*/
+h1{
+   color: #7E7F9A;
+    margin-left: 5%;
+}
+
+table, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 15px;
+    text-align:left;
+    color: #59594A;
+}
+
+table{
+    margin:15px 5% 15px 5%;
+    width: 90%;
+}
+
+th{
+    background-color: #A3BFA8;
+}
+
+td{
+    background-color: #CDE7B0;
+}
+
+#table1 th{
+    width: 30%;
+}
+
+footer{
+    height:50px;
+    line-height: 50px;
+    border-top:1px dotted #666;
+    clear:both;
+}
+
+footer ul{
+    float:right;
+    font-size:.875em;
+    margin-right:20px;
+}
+
+footer li{
+    float:left;
+    list-style-type:none;
+    margin-left:30px;
+    font-style:italic;
+    color:#585858;
+}
+footer a:link{
+    text-decoration:none;
+    color:#585858;
+}
+
+footer a:visited{
+    color:#585858;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer img{
+    width:40px;
+}
