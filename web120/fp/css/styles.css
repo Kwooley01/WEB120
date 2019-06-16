@@ -1,0 +1,388 @@
+html {
+    font-family: 'Abel';font-size: 22px;
+    color:grey;
+}
+
+div.wrapper {
+    background-color:#fff;
+    overflow:auto;
+}
+
+
+h1>a {
+    text-decoration: none;
+    color:#000;
+}
+
+p{
+    text-indent: 50px;
+    margin:20px;
+}
+
+#disclaimer p{
+    border-style: solid;
+    padding:30px 50px;
+    margin:0 0 4% 10%;
+    width: 70%;
+}
+
+#disclaimer footer p{
+    border-style:none;
+    padding:inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+#social li{
+    float:right;
+    margin:10px;
+}
+
+
+/* Style all font awesome icons */
+.fab {
+  padding: 10px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+    border-radius: 50%;
+    margin:7px;
+    float:right;
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook-f {
+  background: #3B5998;
+  color: white;
+}
+
+/*Instagram*/
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/*Twitter*/
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+h2.pageID{
+    margin-left: 10px;
+}
+
+/*Dropdown Menu*/
+.dropbtn {
+  background-color: lightgrey;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  width:45px;
+  border-radius:10%;
+margin: 0 0 0 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    margin-left:20px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: grey;}
+
+h1{
+    font-size:40px;
+    letter-spacing: 10px;
+    margin-left: 6%;
+}
+
+#leaf{
+    width:89%;
+    margin-left:5%;
+}
+#me{
+    width:30%;
+    margin: 2% 5% 2% 5%;
+    float:right;
+}
+
+#cat{
+    width:80%;
+    margin:0 0 3% 10%;
+}
+
+img{
+    max-width:100%; 
+    display:block;
+}
+
+.third{
+    width:25%;
+    padding:10px;
+    border:1px dotted grey;
+    margin-left:5%;
+    margin-bottom:6%;
+    float:left;
+}
+
+.third:nth-child(3){
+    margin-right:0;
+}
+
+.third h3{
+    text-align:center;
+    text-transform: none;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+    font-size: 15px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+    width:60%;
+    margin-left:18%;
+}
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 100%;
+}
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.1s;
+  animation-name: fade;
+  animation-duration: 0.1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+footer{
+    clear:both;
+    height:30px;
+    line-height: 20px;
+    border-top:1px dotted #666;
+}
+
+footer ul{
+    float:right;
+    margin-right:15px;
+}
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+   div.wrapper {
+		width:100%;
+		margin:auto;
+	}
+
+    section {
+		width:50%;
+		float:left;
+	}
+    
+    section p{
+        margin: 20px;
+    }
+
+    #inner{
+        width:100%;
+    }
+	
+     aside {	
+		width:50%;
+		float:right;
+	}
+			
+	
+    img.desktop {
+      		 float:left;
+   	 }
+    
+    img.tablet, img.phone {
+       		 display:none;
+    	}  
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        		background-color: #ccc;
+        		color:#000;
+   	 }
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+	
+	section {
+		width:50%;
+		float:left;
+	}
+    
+    section p{
+        margin: 15px;
+    }
+    
+    #inner{
+        width:100%;
+    }
+	
+	aside {	
+		width:50%;
+		float:right;
+	}
+	
+            img.tablet {
+       		width:100%;
+           }
+    
+           img.phone, img.desktop {
+        		display:none;
+           } 
+    
+    /* Change background color of navigation on selected page */
+           ul.topnav li a.selected {
+        		background-color: #ccc;
+        		color:#000;
+          }
+  }
+
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    section{
+        
+    }
+    
+    img.phone {
+       		width:100%;
+            float:right;
+    }
+    
+    img.tablet, img.desktop {
+        		display:none;
+    }  
+     #inner{
+        width:100%;
+    }
+
+}
